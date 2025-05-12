@@ -1,0 +1,35 @@
+.contact-section {
+  text-align: center;
+  color: var(--text-color);
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.contact-section h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.contact-section p.text-muted {
+  overflow: auto;
+  width: 100%;
+  display: block;
+}
+
+.form-control {
+  border: 1px solid var(--border-primary);
+  border-radius: 0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+textarea.form-control {
+  height: 150px;
+  resize: none;
+}
+
+form {
+  margin-bottom: 80px;
+}
