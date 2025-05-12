@@ -145,7 +145,7 @@ function handleProductModal() {
       title: modalItem.title,
       description: modalItem.title,
       price: parseFloat(modalItem.price), // convert string price to number
-      image: modalItem.image.replace("../", "/"), // remove the first two dots from the path
+      image: modalItem.image.replace("../", ""), // remove the first two dots from the path
       size: modalItem.size,
       quantity: modalItem.quantity,
     };
