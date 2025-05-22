@@ -1,100 +1,76 @@
-# Rhae
+# 🛍️ Rhae - Online Clothing Store
 
-Projeto de site e-commerce desenvolvido como exercício académico, inspirado em várias plataformas similares. O objetivo é criar uma loja funcional, organizada e responsiva utilizando tecnologias base: HTML, CSS, Bootstrap e JavaScript.
+**Rhae** is an academic group project: an e-commerce website inspired by real-world platforms. The main goal was to design a functional, responsive, and user-friendly clothing store using core front-end technologies.
 
----
+> **Course**: WEBC  
+> **School**: CESAE Digital  
+> **Delivery Date**: May 12, 2025  
+> **Status**: Complete
 
-## Tecnologias Usadas
+## 👥 Team
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
+- **Rafael da Costa** 
+- **Juliane Brignol**
+- **Andreia Martins**   
+- **Roberto Couto**
 
----
+## 🔗 Live Preview
 
-## Funcionalidades
-
-- Página inicial com slider e produtos em destaque
-- Páginas de categorias: Mulher, Homem, Criança
-- Cards de produto com preço, nome, imagem e desconto (se aplicável)
-- Modal de produto com seleção de tamanho e quantidade
-- Carrinho de compras com contador e total dinâmico
-- Checkout com formulário e página de confirmação de encomenda
-- Página de contacto com formulário
-- Responsividade para vários tamanhos de ecrã
+👉 [Check it out on GitHub Pages](https://rafaelskd.github.io/WEBC-Rhae-1st-Group-Project-CESAE/)
 
 ---
 
-## Estrutura do Projeto
+## 🚀 Project Overview
 
-```
-/ecommerce-zara-clone
-├── index.html
-├── /pages
-│   ├── home.html
-│   ├── women.html
-│   ├── men.html
-│   ├── kids.html
-│   ├── cart.html
-│   ├── checkout.html
-│   ├── confirmation.html
-│   └── contact.html
-├── /css
-│   ├── index.css
-│   ├── home.css
-│   ├── women.css
-│   ├── men.css
-│   ├── kids.css
-│   ├── cart.css
-│   ├── checkout.css
-│   ├── confirmation.css
-│   └── contact.css
-├── /js
-│   ├── main.js
-│   ├── cart.js
-│   ├── checkout.js
-│   └── ...
-├── /images
-├── /assets
-├── /documentation
-│   ├── tech_analysis.md
-│   └── features.md
-├── README.md
-```
+The initial assignment focused on basic structure with **HTML** and **CSS**, but we decided to go beyond expectations. We added enhanced interactivity and advanced layout features using **JavaScript** and **Bootstrap 5**.
+
+This hands-on project helped us learn how to collaborate effectively, divide responsibilities, and apply real-world development workflows.
 
 ---
 
-## Como Contribuir
+## 🛠️ Technologies Used
 
-- Cada membro deve trabalhar apenas nas páginas atribuídas (em `/pages`)
-- CSS de cada página está separado em `/css` com o mesmo nome
-- JavaScript está dividido por função:
-  - `main.js` → funcionalidades globais
-  - `cart.js` → lógica do carrinho
-  - `checkout.js` → lógica do checkout
-- Evita editar ficheiros que não estão atribuídos a ti para evitar conflitos de versão
-- Comenta o teu código sempre que possível
+- **HTML5**  
+- **CSS3**  
+- **Bootstrap 5**  
+- **JavaScript**
 
 ---
 
-## Documentação Técnica
+## ✨ Key Features
 
-- [features.md](./documentation/features.md)
-- [tech_analysis.md](./documentation/tech_analysis.md)
+- **Home Page** with image slider and featured products  
+- **Product Category Pages**: Women, Men, and Kids  
+- **Product Cards** with name, image, price, and discount badge  
+- **Product Modals** with size and quantity selection  
+- **Shopping Cart** with dynamic item counter and total  
+- **Checkout Page** with form and order confirmation  
+- **Contact Page** with contact form and store information  
+- **Fully Responsive Layout** across devices
 
 ---
 
-## Estado do Projeto
+## 🤝 Contribution Guidelines
 
-Em desenvolvimento  
-Entrega prevista: **[12 Maio 2025]**
+- Each team member is responsible for specific pages under `/pages`  
+- CSS is split by page in the `/css` folder  
+- JS is modularized by functionality:  
+  - `main.js` → global features  
+  - `cart.js` → shopping cart logic  
+  - `checkout.js` → checkout form behavior  
+- Avoid editing files not assigned to you to prevent merge conflicts  
+- Comment your code clearly whenever possible  
 
 ---
 
-## Equipa
+## 📄 Technical Documentation
 
-- Juliane Brignol (Team Leader)
-- Andreia Martins
-- Rafael da Costa
-- Roberto Couto
+- [`features.md`](./documentation/features.md) – Detailed list of implemented features  
+- [`tech_analysis.md`](./documentation/tech_analysis.md) – Technical and design decisions
+
+---
+
+## 🎯 Final Notes
+
+This project has been a great opportunity to push beyond the expected scope, learning practical techniques that go far beyond the classroom. We’re proud of what we’ve accomplished and excited to keep growing as front-end developers.
+
